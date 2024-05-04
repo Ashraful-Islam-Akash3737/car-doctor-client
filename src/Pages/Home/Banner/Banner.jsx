@@ -15,8 +15,8 @@ const Banner = () => {
                         <h2 className="md:text-6xl text-4xl font-bold">Affordable <br /> Price For Car <br /> Servicing</h2>
                         <p className="">There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <div className="flex items-center gap-3 md:gap-5">
-                            <button className="btn px-3 md:px-4  btn-primary bg-red-600 border-none">Discover More</button>
-                            <button className="btn px-3 md:px-4 btn-outline btn-secondary text-white">Latest Project</button>
+                            <button className="btn px-3 md:px-4  btn-primary text-white bg-red-600 border-none">Discover More</button>
+                            <button className="btn px-3 md:px-4 btn-outline  btn-secondary text-white">Latest Project</button>
                         </div>
 
                     </div>
@@ -33,7 +33,7 @@ const Banner = () => {
                         <h2 className="md:text-6xl text-4xl font-bold">Affordable <br /> Price For Car <br /> Servicing</h2>
                         <p className="">There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <div className="flex items-center gap-3 md:gap-5">
-                            <button className="btn px-3 md:px-4  btn-primary bg-red-600 border-none">Discover More</button>
+                            <button className="btn px-3 md:px-4  btn-primary text-white bg-red-600 border-none">Discover More</button>
                             <button className="btn px-3 md:px-4 btn-outline btn-secondary text-white">Latest Project</button>
                         </div>
 
@@ -51,7 +51,7 @@ const Banner = () => {
                         <h2 className="md:text-6xl text-4xl font-bold">Affordable <br /> Price For Car <br /> Servicing</h2>
                         <p className="">There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <div className="flex items-center gap-3 md:gap-5">
-                            <button className="btn px-3 md:px-4  btn-primary bg-red-600 border-none">Discover More</button>
+                            <button className="btn px-3 md:px-4  btn-primary text-white bg-red-600 border-none">Discover More</button>
                             <button className="btn px-3 md:px-4 btn-outline btn-secondary text-white">Latest Project</button>
                         </div>
 
@@ -69,7 +69,7 @@ const Banner = () => {
                         <h2 className="md:text-6xl text-4xl font-bold">Affordable <br /> Price For Car <br /> Servicing</h2>
                         <p className="">There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <div className="flex items-center gap-3 md:gap-5">
-                            <button className="btn px-3 md:px-4  btn-primary bg-red-600 border-none">Discover More</button>
+                            <button className="btn px-3 md:px-4  btn-primary text-white bg-red-600 border-none">Discover More</button>
                             <button className="btn px-3 md:px-4 btn-outline btn-secondary text-white">Latest Project</button>
                         </div>
 
@@ -87,7 +87,7 @@ const Banner = () => {
                         <h2 className="md:text-6xl text-4xl font-bold">Affordable <br /> Price For Car <br /> Servicing</h2>
                         <p className="">There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <div className="flex items-center gap-3 md:gap-5">
-                            <button className="btn px-3 md:px-4  btn-primary bg-red-600 border-none">Discover More</button>
+                            <button className="btn px-3 md:px-4  btn-primary text-white bg-red-600 border-none">Discover More</button>
                             <button className="btn px-3 md:px-4 btn-outline btn-secondary text-white">Latest Project</button>
                         </div>
 
@@ -105,7 +105,7 @@ const Banner = () => {
                         <h2 className="md:text-6xl text-4xl font-bold">Affordable <br /> Price For Car <br /> Servicing</h2>
                         <p className="">There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <div className="flex items-center gap-3 md:gap-5">
-                            <button className="btn px-3 md:px-4  btn-primary bg-red-600 border-none">Discover More</button>
+                            <button className="btn px-3 md:px-4  btn-primary text-white bg-red-600 border-none">Discover More</button>
                             <button className="btn px-3 md:px-4 btn-outline btn-secondary text-white">Latest Project</button>
                         </div>
 

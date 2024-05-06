@@ -13,6 +13,7 @@ module.exports = {
   plugins: ['react-refresh'],
   rules: {
     'react/jsx-no-target-blank': 'off',
+    'react/prop-types': 'off', //this is used for off the prop-types validation
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },

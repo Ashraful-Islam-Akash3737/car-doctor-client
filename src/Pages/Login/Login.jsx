@@ -1,10 +1,14 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import LoginImg from "../../assets/images/login/login.svg"
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProviders";
+import axios from "axios";
 
 const Login = () => {
     const { signIn } = useContext(AuthContext);
+    const location = useLocation();
+    console.log(location);
+    const navigate = useNavigate();
 
     const handleLogin = (e) => {
         e.preventDefault();
@@ -12,13 +16,34 @@ const Login = () => {
         const email = form.email.value;
         const password = form.password.value;
 
-        const user = { email, password };
-        console.log("sign up user", user);
+        // const user = { email, password };
+        // console.log("sign up user", user);
 
         //create user
         signIn(email, password)
         .then(result => {
-            console.log("result from login", result.user);
+            const loggedInUser = result.user;
+            console.log("result from login", loggedInUser);
+            
+
+            //get access token
+            const user = { email };
+            axios.post('http://localhost:5000/jwt', user, { withCredentials: true})
+            .then(res => {
+                console.log(res.data);
+                if(res.data.success){
+                    navigate(location?.state ? location?.state : "/")
+                }
+            })
+            // const user = { email };
+            // axios.post('http://localhost:5000/jwt', user, {withCredentials: true})
+            // .then(res => {
+            //     console.log(res.data)
+            //     // if (res.data.success) {
+            //     //     navigate(location?.state ? location?.state : "/")
+            //     // }
+            // })
+
         })
         .catch(error => {
             console.log("error from login", error);
